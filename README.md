@@ -1,73 +1,35 @@
-# Welcome to your Lovable project
+# SweetNook Delight Cart
 
-## Project info
+SweetNook Delight Cart is a modern web application built with TypeScript, designed for candy lovers to discover, select, and purchase a wide assortment of confections. Whether you have a craving for classic candies, gourmet chocolates, or colorful gummies, SweetNook makes it easy to fill your cart with your favorite treats.
 
-**URL**: https://lovable.dev/projects/2cdd39d0-0f02-4e0d-a135-9b786608eb85
+## Features
+- Browse a vibrant selection of candies and sweets
+- Add items to your cart for easy checkout
+- Organize treats by type, flavor, or popularity
+- Intuitive and responsive user experience
 
-## How can I edit this code?
+## Technologies Used
+- TypeScript
 
-There are several ways of editing your application.
+## Installation
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/2cdd39d0-0f02-4e0d-a135-9b786608eb85) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git clone https://github.com/malahimaamir/sweetnook-delight-cart.git
+cd sweetnook-delight-cart
+npm install
 ```
 
-**Edit a file directly in GitHub**
+## Usage
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm start
+```
 
-**Use GitHub Codespaces**
+## Contributing
+We welcome contributions! Open an issue or submit a pull request to help make SweetNook even sweeter.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## License
+Specify your license here.
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2cdd39d0-0f02-4e0d-a135-9b786608eb85) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Contact
+[malahimaamir on GitHub](https://github.com/malahimaamir)
