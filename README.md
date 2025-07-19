@@ -28,8 +28,6 @@ npm start
 ## Contributing
 We welcome contributions! Open an issue or submit a pull request to help make SweetNook even sweeter.
 
-## License
-Specify your license here.
 
 ## Contact
 [malahimaamir on GitHub](https://github.com/malahimaamir)
