@@ -8,33 +8,50 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Sweet candy-themed pastels */
+    --background: 342 100% 98%;
+    --foreground: 342 20% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 342 20% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 342 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Blush pink primary */
+    --primary: 342 85% 75%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Vanilla cream secondary */
+    --secondary: 45 60% 95%;
+    --secondary-foreground: 342 20% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Soft lavender muted */
+    --muted: 260 20% 96%;
+    --muted-foreground: 342 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Sky blue accent */
+    --accent: 200 85% 88%;
+    --accent-foreground: 342 20% 15%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Soft coral destructive */
+    --destructive: 0 75% 70%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Gentle borders */
+    --border: 342 30% 92%;
+    --input: 342 30% 94%;
+    --ring: 342 85% 75%;
+
+    /* Sweet gradients */
+    --gradient-candy: linear-gradient(135deg, hsl(342 85% 75%), hsl(200 85% 88%));
+    --gradient-hero: linear-gradient(135deg, hsl(342 85% 85%) 0%, hsl(45 60% 90%) 50%, hsl(200 85% 90%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(342 30% 98%) 100%);
+    
+    /* Shadows with candy colors */
+    --shadow-sweet: 0 4px 20px hsl(342 85% 75% / 0.15);
+    --shadow-card: 0 8px 30px hsl(342 85% 75% / 0.12);
+    --shadow-float: 0 12px 40px hsl(200 85% 88% / 0.18);
 
     --radius: 0.5rem;
 
